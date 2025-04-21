@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0081)https://jelenamirkovic.github.io/sphere-education.github.io/docs/snort/index.html -->
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>CSCI 493-81 Intrusion Detection</title>
+    <link rel="stylesheet" type="text/css" charset="utf-8" media="all"
+      href="./common.css">
+    <link rel="stylesheet" type="text/css" charset="utf-8"
+      media="screen" href="./screen.css">
+  </head>
+  <body dir="ltr" lang="en">
+    <div id="page" dir="ltr" lang="en">
+      <h1>Intrusion Detection<br>
+      </h1>
+      <div class="author">Created by: Jeff Mates, JHUISI,
+        jmates1@jhu.edu,<br>
+        Modified by: Jelena Mirkovic, USC/ISI, sunshine@isi.edu </div>
+      <div class="table-of-contents"><br>
+      </div>
+      <span class="anchor" id="overview">
+        <h2>Overview</h2>
+        <p>This demonstrates how Snort and similar inline intrusion
+          detection / prevention systems can be used to help secure
+          legacy software by walking them through an environment that
+          includes an extremely insecure application.</p>
+        <p>Depending on their skill level students will be asked to
+          analyze network the network traffic produced by this program,
+          to write Snort rules to protect against known attacks against
+          this program and to create a sample attack against this
+          program which they will be asked to guard against.</p>
+        <span class="anchor" id="reading">
+          <h2>Recommended Reading</h2>
+          <p>The following information may be useful in completing this
+            exercise.</p>
+          <ul>
+            <li><a href="http://en.wikipedia.org/wiki/Snort_(software)"
+                target="new">Short summary of Snort on Wikipedia</a> </li>
+            <li>SYN flood attacks in the <a
+                href="https://www.snort.org/#documents" target="new">The
+                Snort Manual</a> </li>
+            <li>A guide to creating <a
+href="http://www.sans.org/reading_room/whitepapers/tools/developing-snort-dynamic-preprocessor_32874"
+                target="new">Snort Preprocessors</a> </li>
+          </ul>
+          <span class="anchor" id="intro"><span class="anchor"
+              id="assignment"><span class="anchor" id="defense"></span></span></span></span></span></div>
+    <span class="anchor" id="glitches">
+      <div class="level3">
+        <h2>What can go wrong</h2>
+        <ul>
+          <li><b>Nodes Cannot Communicate with Server</b> If the server
+            or route cannot communicate with each other when Snort
+            running, make sure that the routing table is correct. You
+            can check the routing table with the command "route" on both
+            of the computers. </li>
+        </ul>
+      </div>
+    </span>
+  </body>
+</html>
